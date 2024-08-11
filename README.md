@@ -22,7 +22,7 @@ Getting Started
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/atuldonode/crud_ionic_app.git
+git clone https://github.com/atuldonode/ionic_crud_app.git
 
 switch branch to : assignment
 
