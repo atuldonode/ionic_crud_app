@@ -1,0 +1,13 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+ion-card {
+    width: 100%;
+    max-width: 400px;
+    /* Adjust the max-width as per your requirement */
+}

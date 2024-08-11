@@ -1,0 +1,8 @@
+{
+  "name": "CrudApp",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="centered-container">
+    <ion-card>
+      <ion-card-content>
+        <div class="profile-container">
+          <ion-avatar aria-hidden="true" class="profile-avatar">
+            <img alt="" [src]="userData.picture ? userData.picture : 'https://ionicframework.com/docs/img/demos/avatar.svg'" />
+          </ion-avatar>
+          <div class="profile-details">
+            <ion-label class="p-title">{{userData.name}}</ion-label>
+            <br>
+            <ion-label class="p-email">{{userData.email}}</ion-label>
+          </div>
+          <ion-button expand="small" (click)="signOut()">Sign Out</ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

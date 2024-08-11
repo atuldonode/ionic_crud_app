@@ -1,0 +1,38 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    height: 100%;
+}
+
+ion-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-avatar {
+    --size: 100px;
+    margin-bottom: 30px;
+}
+
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.p-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.p-email {
+    font-size: 1rem;
+    color: gray;
+}
